@@ -30,7 +30,7 @@
         <div class="container">     
 	        <div class="row align-items-center">
 			    <div class="col">         
-		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpeg" alt="my profile image" />
+		            <img id="profile" class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpeg" alt="my profile image" />
 		            <div class="profile-content">
 		                <h1 class="name">Xinyao Chen</h1>
 		                <h2 class="desc">Software Engineer</h2>   
@@ -49,8 +49,13 @@
 							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 						</div>
 			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="mailto:chen.xinyao@northeastern.edu" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	                <a class="btn btn-cta-primary" href="mailto:chen.xinyao@northeastern.edu" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    <div class="content">
+                        <a style = "color:gray;line-height: 50px;" href="https://ccxxyy23.github.io/index.html" target="_blank"></i>Home</a> |
+                        <a style="color:gray" href="https://ccxxyy23.github.io/project.html" target="_blank"></i> Projects</a>
+                    </div><!--//content-->        
 	            </div><!--//col-->
+                
 	        </div><!--//row-->         
         </div><!--//container-->
     </header><!--//header-->
@@ -62,7 +67,7 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm Xinyao, a master's student in computer science at Northeastern University. I've been at it for three semesters now. I'm pretty comfortable with Python, Java, and web development. I'm also all about teamwork – I love collaborating and coming up with creative solutions. Right now, I'm on the lookout for a software engineer internship where I can sharpen my skills and make a real impact.</p>
+                            <p>I'm Xinyao, a master's student in computer science at Northeastern University. I've been at it for two semesters now. I'm pretty comfortable with Python, Java, and web development. I'm also all about teamwork – I love collaborating and coming up with creative solutions. Right now, I'm on the lookout for a software engineer internship where I can sharpen my skills and make a real impact.</p>
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -73,14 +78,14 @@
                         <div class="content">
                             <div class="item">                      
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> Northeastern University</h3>
-                                <h4 class="university">MSc Computer Science <span class="year">(2023 - now)</span></h4>
+                                <h4 class="title" style="padding-left: 25px;">MSc Computer Science <span class="year">(2023 - now)</span></h4>
                                 <p style="padding-left: 25px;"> Courses: Algorithm and data structure, OOD, web development, database management
                                     <br/>TA for course Discrete Math</p>
                     
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> East China University of Science and Technology</h3>
-                                <h4 class="university" style="display: inline">BSc Chemical Engineering <span class="year">(2016 - 2020)</span></h4>
+                                <h4 class="title" style="padding-left: 25px;">BSc Chemical Engineering <span class="year">(2016 - 2020)</span></h4>
                                 <p style="padding-left: 25px;"> GPA: 3.65/4.0, Outstanding Student Scholarship</p>
                             </div><!--//item-->
                         </div><!--//content-->
@@ -94,10 +99,12 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Project Manager - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2020 - 2022)</span></h3>
-                                <p>Led the successful launch of an outsourced project for developing an occupational health knowledge and education platform, which is now used by 300+ companies in East China for standardized EHS training.
-                                    Effectively communicated with internal and external stakeholders, including EHS experts, educators, and factory managers to gather and iterate requirements; Provide clear requirement documents for the software development teams and hold weekly update meeting to maintain alignment with project goals and timelines
-                                    Organized and executed a comprehensive beta test involving five factories, effectively collecting and analyzing feedback to drive iterative development and enhancements of the occupational health education platform.</p>
+                                <h3 class="title">Project Manager - <span class="place">Shanghai Occupational Safety & Health Institute</span> <span class="year">(2020 - 2022)</span></h3>
+                                <ul>
+                                    <li>Led the successful launch of an outsourced project for developing an occupational health knowledge and education platform, which is now used by 300+ companies in East China for standardized EHS training.</li>
+                                    <li>Effectively communicated with internal and external stakeholders, including EHS experts, educators, and factory managers to gather and iterate requirements; Provide clear requirement documents for the software development teams and hold weekly update meeting to maintain alignment with project goals and timeline.</li>
+                                    <li>Organized and executed a comprehensive beta test involving five factories, effectively collecting and analyzing feedback to drive iterative development and enhancements of the occupational health education platform.</li>
+                                </ul>
                             </div><!--//item-->
                             
                         </div><!--//content-->  
@@ -124,10 +131,6 @@
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
-                            <p class="intro">
-                                Programming Language: Java, Python, C/C++, JavaScript
-                                Web Development: React, Material-UI, GraphQL
-                                Projetc Management: GitLab</p>
                             
                             <div class="skillset">
                                
@@ -156,6 +159,13 @@
                                     <h3 class="level-title">React</h3>
                                     <div class="level-bar progress">
 									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Project Management</h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 95%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
 									</div><!--//level-bar-->                                   
                                 </div><!--//item-->
                             
